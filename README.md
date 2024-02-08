@@ -27,8 +27,9 @@ After inspecting the output we can see that the binary is made in C (uses printf
 ## Step 2 Exploatation
 First we need to explian how a UNIX system looks for commands. When a command is executed in the terminal it searches for these binaries in the system, because the system can be huge we make it so it only looks into default directories, we can see these by using "$PATH".
 
+![ss3](https://github.com/LiviuMrc/Path-Hijacking/assets/95069685/4b46827b-0a31-4915-bdd5-0e98a480e68c)
 
-
+![ss4](https://github.com/LiviuMrc/Path-Hijacking/assets/95069685/4d95cdec-115d-4181-b274-2079c9643afb)
 
 
 
