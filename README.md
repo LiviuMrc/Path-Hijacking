@@ -9,9 +9,13 @@ Login into the machine using user1/letitsnow and assess the situation.
 
 ![image](https://github.com/LiviuMrc/Path-Hijacking/assets/95069685/8e8f5812-0c49-4a08-9ca4-b7ae249e4edf)
 
-And we can notice that we are provided with a setuid binary.
+And we can notice that we are provided with a setuid binary because it has "s" in the file permissions.
 
 ![image](https://github.com/LiviuMrc/Path-Hijacking/assets/95069685/ab4145d1-cf9e-4bac-b09e-c00704bbc76d)
+
+When we try to execute it we are asked to input either 1 to see the output or 99 to exit the program, it only accepts intigers and overall its not that interesting.
+
+If we try to inspect it using "cat" or other file editing commands we can see that the code is obfuscated.
 
 
 
