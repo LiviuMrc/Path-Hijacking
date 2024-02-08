@@ -11,6 +11,7 @@ Login into the machine using user1/letitsnow and assess the situation.
 
 And we can notice that we are provided with a setuid binary.
 
+![image](https://github.com/LiviuMrc/Path-Hijacking/assets/95069685/ab4145d1-cf9e-4bac-b09e-c00704bbc76d)
 
 
 
