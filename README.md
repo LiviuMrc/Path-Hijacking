@@ -15,6 +15,9 @@ And we can notice that we are provided with a setuid binary because it has "s" i
 
 When we try to execute it we are asked to input either 1 to see the output or 99 to exit the program, it only accepts intigers and overall its not that interesting.
 
+![image](https://github.com/LiviuMrc/Path-Hijacking/assets/95069685/bd4b64d6-a5e1-458c-acc1-315ad5faec36)
+
+
 If we try to inspect it using "cat" or other file editing commands we can see that the code is obfuscated so the best option is to use "strings".
 
 After inspecting the output we can see that the binary is made in C (uses printf/scanf and is compiled using GCC), but most importantly it uses GNU core utilities: "echo" and "cowsay".
