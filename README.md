@@ -1,4 +1,4 @@
-#Navigating the Roads of Path Hijacking: Understanding the Risks and Safeguarding Your Journey
+# Navigating the Roads of Path Hijacking: Understanding the Risks and Safeguarding Your Journey
 
 In this simple example, we aim to shed light on the mechanics of path hijacking using a straightforward scenario.
 
