@@ -20,7 +20,7 @@ When we try to execute it we are asked to input either 1 to see the output or 99
 
 If we try to inspect it using "cat" or other file editing commands we can see that the code is obfuscated so the best option is to use "strings".
 
-After inspecting the output we can see that the binary is made in C (uses printf/scanf and is compiled using GCC), but most importantly it uses GNU core utilities: "echo" and "cowsay".
+After inspecting the output we can see that the binary is made in C (uses printf/scanf and is compiled using GCC), but most importantly it uses GNU core utilities: "echo" and "cowsay". Using GNU utilities in setuid binaries can pose security concerns due to potential vulnerabilities and security risks associated with the implementation and behavior of these utilities, in this case it will be exploited to grant Privilege Escalation.
 
 
 
