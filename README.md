@@ -11,7 +11,7 @@ Login into the machine using user1/letitsnow and assess the situation.
 
 And we can notice that we are provided with a setuid binary because it has "s" in the file permissions.
 
-![image](https://github.com/LiviuMrc/Path-Hijacking/assets/95069685/ab4145d1-cf9e-4bac-b09e-c00704bbc76d)
+![Screenshot 2024-02-08 212502](https://github.com/LiviuMrc/Path-Hijacking/assets/95069685/cec3f8ad-1f29-43c5-9009-efd338b4c6de)
 
 When we try to execute it we are asked to input either 1 to see the output or 99 to exit the program, it only accepts intigers and overall its not that interesting.
 
