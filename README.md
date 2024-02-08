@@ -20,8 +20,15 @@ When we try to execute it we are asked to input either 1 to see the output or 99
 
 If we try to inspect it using "cat" or other file editing commands we can see that the code is obfuscated so the best option is to use "strings".
 
+![ss2](https://github.com/LiviuMrc/Path-Hijacking/assets/95069685/bb707ad5-0c98-4de4-ad39-ad0bd8786894)
+
 After inspecting the output we can see that the binary is made in C (uses printf/scanf and is compiled using GCC), but most importantly it uses GNU core utilities: "echo" and "cowsay". Using GNU utilities in setuid binaries can pose security concerns due to potential vulnerabilities and security risks associated with the implementation and behavior of these utilities, in this case it will be exploited to grant Privilege Escalation.
 
-![ss2](https://github.com/LiviuMrc/Path-Hijacking/assets/95069685/bb707ad5-0c98-4de4-ad39-ad0bd8786894)
+## Step 2 Exploatation
+First we need to explian how a UNIX system looks for commands. When a command is executed in the terminal it searches for these binaries in the system, because the system can be huge we make it so it only looks into default directories, we can see these by using "$PATH".
+
+
+
+
 
 
