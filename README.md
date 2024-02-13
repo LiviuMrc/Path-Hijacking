@@ -29,7 +29,29 @@ First we need to explian how a UNIX system looks for commands. When a command is
 
 ![ss3](https://github.com/LiviuMrc/Path-Hijacking/assets/95069685/4b46827b-0a31-4915-bdd5-0e98a480e68c)
 
+So if we make a binary with the same name and insert it in a path before all the other we will execute our new script insteam of the default one.
+
 ![ss4](https://github.com/LiviuMrc/Path-Hijacking/assets/95069685/4d95cdec-115d-4181-b274-2079c9643afb)
+
+First we need to create a new file called cowsay, inside it we will write the following:
+
+#!/bin/bash //in order to initialize a bash script
+cat /user2/password.txt //to test and see if we can perform an action we dont have permission as user1
+
+As we can see we are able to see what is inside the file "octoberiscoming" therefore we executed the command as root.
+
+In order to execute other action we will have to edit the cowsay binary and execute menu each time, that can be time consuming but we could get persistant root access to make our life easier.
+
+To do that we need to edit cowsay as such:
+
+#!/bin/bash
+echo -e "1234\n1234" | passwd root //change the password for the root user
+
+Afther running manu we should be able to login into root using the newly set password in this case "1234".
+
+That's about it.
+
+
 
 
 
