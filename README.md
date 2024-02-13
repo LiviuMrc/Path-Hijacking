@@ -29,7 +29,7 @@ First we need to explian how a UNIX system looks for commands. When a command is
 
 ![ss3](https://github.com/LiviuMrc/Path-Hijacking/assets/95069685/4b46827b-0a31-4915-bdd5-0e98a480e68c)
 
-So if we make a binary with the same name and insert it in a path before all the other we will execute our new script insteam of the default one.
+So if we make a binary with the same name and insert it in a path before all the other we will execute our new script instead of the default one.
 
 ![ss4](https://github.com/LiviuMrc/Path-Hijacking/assets/95069685/4d95cdec-115d-4181-b274-2079c9643afb)
 
