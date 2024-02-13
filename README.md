@@ -45,7 +45,8 @@ In order to execute other action we will have to edit the cowsay binary and exec
 
 To do that we need to edit cowsay as such:
 
-#!/bin/bash\n
+#!/bin/bash
+
 echo -e "1234\n1234" | passwd root //change the password for the root user
 
 Afther running manu we should be able to login into root using the newly set password in this case "1234".
