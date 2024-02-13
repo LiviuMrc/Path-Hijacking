@@ -36,6 +36,7 @@ So if we make a binary with the same name and insert it in a path before all the
 First we need to create a new file called cowsay, inside it we will write the following:
 
 #!/bin/bash //in order to initialize a bash script
+
 cat /user2/password.txt //to test and see if we can perform an action we dont have permission as user1
 
 As we can see we are able to see what is inside the file "octoberiscoming" therefore we executed the command as root.
