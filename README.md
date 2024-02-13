@@ -37,13 +37,13 @@ So if we make a binary with the same name and insert it in a path before all the
 
 export PATH="/home/user1/":$PATH
 
-2) create a new file called cowsay, inside it we will write the following:
+2) Create a new file called cowsay, inside it we will write the following:
 
 #!/bin/bash //in order to initialize a bash script
 
 cat /user2/password.txt //to test and see if we can perform an action we dont have permission as user1
 
-As we can see we are able to see what is inside the file "octoberiscoming" therefore we executed the command as root.
+After executing menu we are able to see what is inside the file :"octoberiscoming" this means we executed the command as root.
 
 In order to execute other action we will have to edit the cowsay binary and execute menu each time, that can be time consuming but we could get persistant root access to make our life easier.
 
