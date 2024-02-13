@@ -33,7 +33,11 @@ So if we make a binary with the same name and insert it in a path before all the
 
 ![ss4](https://github.com/LiviuMrc/Path-Hijacking/assets/95069685/4d95cdec-115d-4181-b274-2079c9643afb)
 
-First we need to create a new file called cowsay, inside it we will write the following:
+1) We need to add our desired path before all others using this command:
+
+export PATH="/home/user1/":$PATH
+
+2) create a new file called cowsay, inside it we will write the following:
 
 #!/bin/bash //in order to initialize a bash script
 
